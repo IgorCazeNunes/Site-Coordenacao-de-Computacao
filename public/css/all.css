@@ -1,0 +1,84 @@
+/* Conteudo Principal
+ * -------------------------------------------------------- */
+body,
+html {
+    min-height: 100%;
+    width: 100%;
+
+    background-color: #F7FEFC;
+
+    line-height: 1.5;
+    font-size: 18px;
+
+    font-family: "Oswald", "Quicksand", Arial, sans-serif;
+}
+
+hr {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* Container Principal
+ * -------------------------------------------------------- */
+.content {
+    min-height: 100%;
+    padding: 0;
+}
+
+
+
+/* Collapse Symbol
+ * -------------------------------------------------------- */
+a .fa-plus {
+    display: none;
+}
+
+a.collapsed .fa-plus {
+    display: inline-block;
+}
+
+a.collapsed .fa-minus {
+    display: none;
+}
+
+/* Titulo Principal
+ * -------------------------------------------------------- */
+.titulo {
+    padding: .5rem;
+    margin: 0;
+
+    text-align: center;
+    background: #004884;
+    color: #FFFFFF;
+}
+
+#triangle-bottom-right {
+    width: 0;
+    height: 0;
+
+    border-bottom: 1rem solid #004884;
+    border-right: 1rem solid #F7FEFC;
+}
+
+#triangle-bottom-left {
+    width: 0;
+    height: 0;
+
+    border-bottom: 1rem solid #004884;
+    border-left: 1rem solid #F7FEFC;
+}
+
+
+/* MediaQuery MD
+ * -------------------------------------------------------- */
+ @media (min-width: 768px) {
+    #triangle-bottom-right {
+        border-bottom: 2.5rem solid #004884;
+        border-right: 2.5rem solid #F7FEFC;
+    }
+    
+    #triangle-bottom-left {
+        border-bottom: 2.5rem solid #004884;
+        border-left: 2.5rem solid #F7FEFC;
+    }
+}

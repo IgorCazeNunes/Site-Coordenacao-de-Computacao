@@ -1,0 +1,165 @@
+/* -------------------------------------------------------- */
+/*                        Carousel                          */
+/* -------------------------------------------------------- */
+
+.carousel header {
+    margin-bottom: .5rem;  
+}
+
+/* Carousel Imagem
+ * -------------------------------------------------------- */
+.carousel img {
+    max-height: auto;
+}
+
+.carousel .float-button {
+    position: absolute;
+    
+    right: 15%;
+    left: 15%;
+    
+    bottom: 3px;
+    z-index: 15;
+    
+    text-align: center;
+}
+
+/* Carousel Paragrafo
+ * -------------------------------------------------------- */
+.carousel .carousel-caption { 
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* MediaQuery
+ * -------------------------------------------------------- */
+@media (min-width: 992px) {
+    .carousel img {
+        max-height: 530px !important;
+    }
+}
+
+/* -------------------------------------------------------- */
+/*                          Sobre                           */
+/* -------------------------------------------------------- */
+.sobre {
+    padding-top: 50px;
+
+    text-align: justify;
+
+    color: #fff;
+    background-color: #003777;
+}
+
+/* Sobre Imagem
+ * -------------------------------------------------------- */
+.sobre .sobre-img {
+    display: none;
+}
+
+/* Sobre Artigo
+ * -------------------------------------------------------- */
+.sobre .sobre-article {
+    min-width: 100%;
+}
+
+/* Sobre MediaQuery XL 1200px
+ * -------------------------------------------------------- */
+@media (min-width: 992px) {
+    .sobre .sobre-img {
+        display: block;
+        object-fit: cover;
+        width: 350px;
+    }
+
+    .sobre .sobre-article {
+        padding: 0 !important;
+    }
+}
+
+/* -------------------------------------------------------- */
+/*                         Eventos                          */
+/* -------------------------------------------------------- */
+.eventos {
+    padding-top: 50px;
+    text-align: justify;
+
+    background: linear-gradient(#003777, #F7FEFC);
+    color: #fff;
+}
+
+/* Eventos Logo-E-Info
+ * -------------------------------------------------------- */
+.eventos .logo-e-info {
+    object-fit: cover;
+    width: 300px;
+
+    margin-bottom: 20px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* Eventos Row
+ * -------------------------------------------------------- */
+.eventos .eventos-row {
+    padding: 25px;
+
+    color: #FFFFFF;
+    background: rgba(48, 45, 69, 0.25);
+}
+
+/* Eventos MediaQuery LG 992
+ * -------------------------------------------------------- */
+@media (min-width: 992px) {
+    .eventos img.logo-e-info {
+        margin-bottom: 0px;
+    }
+
+    .eventos .eventos-row {
+        background: rgba(48, 45, 69, 0.5);
+    }
+}
+
+/* -------------------------------------------------------- */
+/*                        Projetos                          */
+/* -------------------------------------------------------- */
+.projetos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    text-align: justify;
+    
+    color: #000;
+    background-color: #F7FEFC;
+}
+
+/* Projetos Card
+ * -------------------------------------------------------- */
+.projetos .card {
+    height: auto;
+
+    margin: 20px 10px;
+
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .25);
+}
+
+.projetos .card-title {
+    font-weight: bold;
+}
+
+.projetos .card-img-top {
+    max-height: auto;
+}
+
+/* Projetos MediaQuery LG 992
+ * -------------------------------------------------------- */
+@media (min-width: 992px) {
+    .projetos .card {
+        height: 500px;
+    }
+    
+    .projetos .card-img-top {
+        max-height: 250px;
+    }
+}
+

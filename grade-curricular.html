@@ -1,0 +1,3906 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="author" content="Igor Cazé Nunes">
+
+	<title>Ciéncia da Computação - Grade Curricular</title>
+
+	<link rel="stylesheet" href="public/css/vendors/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="public/css/vendors/bootstrap.min.css">
+	<link rel="stylesheet" href="public/css/vendors/font-awesome/all.min.css">
+
+	<link rel="stylesheet" href="public/css/all.css">
+	<link rel="stylesheet" href="public/css/navbar.top.css">
+	<link rel="stylesheet" href="public/css/navbar.main.css">
+	<link rel="stylesheet" href="public/css/footer.css">
+
+	<link rel="stylesheet" href="public/css/grade-curricular.css">
+
+	<link rel="icon" href="public/img/logo-ciencia-da-computacao.png">
+</head>
+
+<body>
+	<!--------------------------------------->
+	<!--             TOP Navbar            -->
+	<!--------------------------------------->
+	<nav class="navbar top-navbar">
+		<container class="container">
+			<div class="col">
+				<span>
+					<a href="tel:+558738663224" class="footer-link">
+						<i class="fas fa-phone-alt mr-2"></i>
+						(87) 3866-3224
+					</a>
+				</span>
+
+				<span>
+					<a class="footer-link" href="mailto:ouvidoria@facape.br">
+						<i class="fas fa-envelope mx-2"></i>
+						ouvidoria@facape.br
+					</a>
+				</span>
+			</div>
+
+			<div class="col">
+				<div class="float-right">
+					<span>
+						<a target="_blank" href="http://www.facape.br">
+							FACAPE
+							<i class="fas fa-university mx-2"></i>
+						</a>
+					</span>
+
+					<span>
+						<a target="_blank" href="http://sistemas.facape.br:8080/portalaluno/login.do">
+							Portal do Aluno
+							<i class="fas fa-sign-in-alt mx-2"></i>
+						</a>
+					</span>
+				</div>
+			</div>
+		</container>
+	</nav> <!-- [End] Top Navbar -->
+
+	<!--------------------------------------->
+	<!--            Main Navbar            -->
+	<!--------------------------------------->
+	<header class="sticky-top">
+		<nav class="navbar navbar-expand-lg main-navbar">
+			<container class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="public/img/logo-ciencia-da-computacao.png" title="Logo-Ciência-da-Computação">
+				</a>
+
+				<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-links">
+					<i class="fas fa-bars"></i>
+					<i class="fas fa-times"></i>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbar-links">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">
+								Inicio
+							</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownInfo"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Informações
+							</a>
+
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
+								<a class="dropdown-item" href="corpo-docente.html">Corpo Docente</a>
+								<a class="dropdown-item active" href="grade-curricular.html">Grade Curricular</a>
+							</div>
+						</li>
+
+						<div class="d-inline-block d-lg-none">
+							<div class="dropdown-divider"></div>
+
+							<li class="nav-item">
+								<a class="nav-link" target="_blank" href="http://www.facape.br">
+									<i class="fas fa-university mr-2"></i>
+									FACAPE
+								</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" target="_blank"
+									href="http://sistemas.facape.br:8080/portalaluno/login.do">
+									<i class="fas fa-sign-in-alt mr-2"></i>
+									Portal do Aluno
+								</a>
+							</li>
+						</div>
+					</ul>
+				</div>
+			</container>
+		</nav>
+	</header> <!-- [End] Main Navbar-->
+
+	<!--------------------------------------->
+	<!--        Container Principal        -->
+	<!--------------------------------------->
+	<main class="content container-fluid">
+
+		<!--                Grade              -->
+		<!--------------------------------------->
+		<section class="grade">
+			<div class="container-fluid m-0 p-0 px-md-2">
+				<h2 class="titulo">
+					<div id="triangle-bottom-left" class="float-left"></div>
+					Grade Curricular
+					<div id="triangle-bottom-right" class="float-right"></div>
+				</h2>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row">
+					<!--              1 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								1º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-1-periodo"
+								role="button">
+
+								1º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-1-periodo" class="collapse-content">
+							<!-- 020319101 - Fundamentos da Computação -->
+							<cell>
+								<a id="020319101" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319101">
+									<span>
+										Fundamentos da Computação
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319101" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Fundamentos da Computação
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Introdução à Computação
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Fundamentos teóricos da área de Computação e como eles
+																influenciam a prática profissional; Conceitos,
+																Fundamentos
+																de Hardware e Software; Tipos de Computador - Tecnologia
+																de
+																armazenamento, entrada e saída, Software, Sistemas de
+																Numeração, Aritmética Binária; Noções de Engenharia de
+																Software; Sistemas Operacionais e Redes de Computadores
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319101 - Fundamentos da Computação -->
+
+							<!-- 020319102 - Algoritmos -->
+							<cell>
+								<a id="020319102" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319102">
+									<span>
+										Algoritmos
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319102" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Algoritmos
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Algoritmos
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 20H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 40H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução à lógica de programação; Tipos de Dados,
+																Variável, Expressões Aritméticas e Lógicas e seus
+																Operadores; Estruturas Sequenciais, de Seleção e de
+																Repetição; Estruturas Compostas Homogêneas ( Vetores e
+																Matrizes); Modularização de Algoritmos: Funções e
+																Procedimentos; Passagem de parâmetros por valor e por
+																referência;
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319102 - Algoritmos -->
+
+							<!-- 020319103 - Geometria Analitica e Algebra Linear -->
+							<cell>
+								<a id="020319103" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319103">
+									<span>
+										Geometria Analítica e Álgebra Linear
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319103" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Geometria Analítica e Álgebra Linear
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Geometria e Álgebra Linear
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Álgebra Vetorial, Retas e Planos, Matrizes, Sistemas
+																Lineares e Determinantes, Transformação linear, O Espaço
+																Vetorial Rn, Autovalores e Autovetores de Matrizes,
+																Diagonalização de Matrizes Simétricas.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319103 - Geometria Analitica e Algebra Linear -->
+
+							<!-- 020319104 - Matemática Básica -->
+							<cell>
+								<a id="020319104" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319104">
+									<span>
+										Matemática Básica
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319104" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Matemática Básica
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Não há equivalência
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Números Reais, Funções de uma Variável Real, Limite e
+																Continuidade.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319104 - Matemática Básica -->
+
+							<!-- 020319105 - Metodologia da Pesquisa Científica -->
+							<cell>
+								<a id="020319105" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319105">
+									<span>
+										Metodologia da Pesquisa Científica
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319105" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Metodologia da Pesquisa Científica
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Metodologia Científica
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Princípios filosóficos e epistemológicos da pesquisa
+																científica. Estruturação e escrita de trabalhos
+																técnico-científicos. Normas ABNT. Apresentação de
+																Trabalhos
+																Técnicos e Científicos.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319105 - Metodologia da Pesquisa Científica -->
+						</div>
+					</div> <!-- [End] 1 Período -->
+
+					<!--              2 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								2º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-2-periodo"
+								role="button">
+								2º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-2-periodo" class="collapse-content">
+							<!-- 020319106 - Inovação Tecnológica -->
+							<cell>
+								<a id="020319106" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319106">
+									<span>
+										Inovação Tecnológica
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319106" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Inovação Tecnológica
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Não há equivalência
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Conceito de inovação. Tipos de inovação. Evolução
+																conceitual
+																e teórica da relação entre Ciência, Tecnologia e
+																Inovação.
+																Estratégias de Inovação. Inovação e Competitividade.
+																Difusão
+																de Inovações. Inovação e especificidades setoriais.
+																Inovação
+																e internacionalização de empresas. Planejamento e gestão
+																do
+																processo de inovação. Indicadores de inovação. Políticas
+																públicas para inovação.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319106 - Inovação Tecnológica -->
+
+							<!-- 020319107 - Tecnologia da Informação e Sociedade -->
+							<cell>
+								<a id="020319107" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319107">
+									<span>
+										Tecnologia da Informação e Sociedade
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319107" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Tecnologia da Informação e Sociedade
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Computadores e Sociedade
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Questões e problemas ligados ao exercício profissional;
+																o
+																estudo dos Impactos da Automação na Sociedade, a
+																influência
+																do computador sobre a mentalidade dos profissionais e
+																usuários; conhecimento das influências sociais e
+																individuais, negativas ou positivas, causadas pelos
+																computadores. Inclusão digital; o uso de computadores na
+																educação; qualidade da informação disponível na
+																Internet; os
+																efeitos sociais negativos e positivos da profissão;
+																influências perniciosas dos computadores sobre a mente
+																dos
+																seus usuários e profissionais.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319107 - Programação Imperativa -->
+
+							<!-- 020319108 - Cálculo 1 -->
+							<cell>
+								<a id="020319108" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319108">
+									<span>
+										Cálculo 1
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319108" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Cálculo 1
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Não tem equivalência
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Matemática Básica
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Derivadas, Integral, Técnicas de Integração, Integrais
+																Impróprias, Aplicações da Integral.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319108 - Cálculo 1 -->
+
+							<!-- 020319109 - Física para Computação -->
+							<cell>
+								<a id="020319109" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319109">
+									<span>
+										Física para Computação
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319109" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Física para Computação
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Física Aplicada a Computação
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Força elétrica; campo elétrico; potencial elétrico;
+																corrente
+																elétrica; circuitos elétricos; capacitância; força
+																magnética; campo magnético; indução eletromagnética e
+																ondas
+																eletromagnéticas.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319109 - Física para Computação -->
+
+							<!-- 020319110 - Programação Imperativa -->
+							<cell>
+								<a id="020319110" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020319110">
+									<span>
+										Programação Imperativa
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020319110" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Programação Imperativa
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Programação 1
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 0H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 60H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Algoritmos
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Linguagem de programação estruturada de Paradigma
+																Imperativo. Conceitos de: Tipos e Estruturas Elementares
+																de
+																Dados, Operadores; Funções pré-definidas; Estruturas de
+																Seleção e de Repetição; Estruturas compostas homogênea e
+																heterogêneas (vetores, matrizes e registro);
+																Procedimentos e
+																Funções; Passagem de parâmetros por valor e por
+																referência;
+																Arquivos; Fundamentos de Recursividade;
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020319110 -Programação Imperativa -->
+						</div>
+					</div> <!-- [End] 2 Período -->
+
+					<!--              3 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								3º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-3-periodo"
+								role="button">
+								3º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-3-periodo" class="collapse-content">
+							<!-- 020313111 - Programação Avançada -->
+							<cell>
+								<a id="020313111" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313111">
+									<span>
+										Programação Avançada
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313111" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Programação Avançada
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Programação 2
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 0H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 60H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Programação Imperativa
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Linguagem de programação de Paradigma Imperativo;
+																Recursividade; Ponteiros; Alocação dinâmica de memória;
+																Passagem de parâmetros (por valor e por referência)
+																Diretivas; Parâmetros do main; Tipos Abstratos de Dados;
+																Arquivos; Introdução aos Métodos de Desenvolvimento de
+																algoritmos: Método Guloso, Divisão e Conquista,
+																Programação
+																Dinâmica. Backtracking; Fundamentos à Análise de
+																Algoritmos;
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313111 -Programação Imperativa -->
+
+							<!-- 020313112 - Matemática Discreta -->
+							<cell>
+								<a id="020313112" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313112">
+									<span>
+										Matemática Discreta
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313112" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Matemática Discreta
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Não há equivalência
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não há pré-requisito para esse componente curricular
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução. Indução e recursão. Teoria dos conjuntos.
+																Teoria
+																dos números. Combinatória. Funções Geradoras.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313112 - Matemática Discreta -->
+
+							<!-- 020313113 - Estatística -->
+							<cell>
+								<a id="020313113" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313113">
+									<span>
+										Estatística
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313113" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Estatística
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Probabilidade e Estatística /
+																METODO
+																QUANTITATIVO 2
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Cálculo 1
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Estatística Descritiva. Cálculo de Probabilidade.
+																Probabilidade Condicional. Variáveis Aleatórias. Valor
+																Esperado e Variância de uma variável aleatória.
+																Principais
+																distribuições discretas e contínuas de probabilidade.
+																Distribuições Amostrais; Estimação de parâmetros.
+																Intervalo
+																de confiança. Testes de Hipóteses.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313113 - Estatística -->
+
+							<!-- 020313114 - Estrutura de Dados -->
+							<cell>
+								<a id="020313114" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313114">
+									<span>
+										Estrutura de Dados
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313114" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Estrutura de Dados
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Estrutura de Dados
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 30H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 30H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Programação 1
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Estruturas de Dados Fundamentais; Algoritmos de Busca;
+																Algoritmos de Ordenação; Listas Lineares e suas
+																generalizações (lista Sequencial, lista encadeada, lista
+																duplamente encadeada, lista circular, lista ordenada);
+																Pilhas e Filas; Árvores: Binárias, Binárias de Busca,
+																Balanceadas (Árvore AVL e Árvores B); Espalhamentos
+																(Tabela
+																Hash).
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313114 - Estrutura de Dados -->
+
+							<!-- 020313115 - Cálculo 2 -->
+							<cell>
+								<a id="020313115" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313115">
+									<span>
+										Cálculo 2
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313115" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Cálculo 2
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Não há equivalência
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Cálculo 1
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Sequências e séries; Derivação e integração de Séries;
+																Séries de Taylor e MacLaurin; Equações Diferenciais;
+																Transformadas de Laplace, Transformada de Fourier.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313115 - Cálculo 2 -->
+						</div>
+					</div> <!-- [End] 3 Período -->
+
+					<!--              4 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								4º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-4-periodo"
+								role="button">
+								4º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-4-periodo" class="collapse-content">
+							<!-- 020313116 - Programação Orientada a Objeto -->
+							<cell>
+								<a id="020313116" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313116">
+									<span>
+										Programação Orientada a Objeto
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313116" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Programação Orientada a Objeto
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Programação 3
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Programação 2
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Abstração de Dados; Classes; Atributos; Métodos;
+																Objetos;
+																Instância; Sobrecarga de métodos; Construtores;
+																Encapsulamento; Herança; Polimorfismo/Vinculação
+																Dinâmica;
+																Classes Abstratas; Biblioteca de Classes; Exceção;
+																Concorrência; Interface Gráfica;Abstração de Dados;
+																Classes;
+																Atributos; Métodos; Objetos; Instância; Sobrecarga de
+																métodos; Construtores; Encapsulamento; Herança;
+																Polimorfismo/Vinculação Dinâmica; Classes Abstratas;
+																Biblioteca de Classes; Exceção; Concorrência; Interface
+																Gráfica;
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313116 - Programação Orientada a Objeto -->
+
+							<!-- 020313117 - Circuitos Digitais -->
+							<cell>
+								<a id="020313117" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313117">
+									<span>
+										Circuitos Digitais
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313117" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Circuitos Digitais
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Eletrônica Digital
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Física Aplicada a Computação
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução aos Sistemas Digitais. Transistores,
+																Tecnologia
+																MOS, Portas Lógicas. Álgebra Booleana e Simplificação de
+																Circuitos. Circuitos Combinacionais aritméticos e de
+																interconexão. Circuitos Seqüenciais: latches e
+																flip-flops,
+																registradores e contadores. Blocos de Memórias.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313117 - Circuitos Digitais -->
+
+							<!-- 020313118 - Banco de Dados 1  -->
+							<cell>
+								<a id="020313118" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313118">
+									<span>
+										Banco de Dados 1
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313118" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Banco de Dados 1
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Banco de Dados 1
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 40H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 20H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Estrutura de Dados
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução a Banco de Dados; Modelo de Banco de Dados;
+																Abordagem Entidade Relacionamento; Abordagem Relacional;
+																Engenharia Reversa de Arquivos e Normalização; Álgebra e
+																Cálculo Relacional.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313118 - Banco de Dados 1  -->
+
+							<!-- 020313119 - Lógica para Computação -->
+							<cell>
+								<a id="020313119" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313119">
+									<span>
+										Lógica para Computação
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313119" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Lógica para Computação
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Lógica Aplicada a Computação
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Matemática Discreta
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Relação entre Lógica, Matemática e Computação. Lógica
+																Proposicional: sintaxe (posto, provas por indução) e
+																semântica; Sistemas Dedutivos. Lógica de Predicados:
+																estruturas, relações predicados; assinatura; termos,
+																fórmulas atômicas, sintaxe; verdade em um modelo;
+																satisfatibilidade; diagramas; métodos da resolução com
+																unificação.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313119 - Lógica para Computação -->
+
+							<!-- 020313120 - Sistemas Operacionais  -->
+							<cell>
+								<a id="020313120" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313120">
+									<span>
+										Sistemas Operacionais
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313120" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Sistemas Operacionais
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Sistemas Operacionais
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 58H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 02H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Estrutura de Dados
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução ao estudo dos Sistemas Operacionais; Gerência
+																de
+																Processos: Processos, Threads e Deadlock; Gerência do
+																Processador: Escalonamento; Gerência de Memória: Memória
+																Real e Virtual; Gerência de Arquivos; Gerência de
+																Entrada/Saída.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313120 - Sistemas Operacionais  -->
+						</div>
+					</div> <!-- [End] 4 Período -->
+
+					<!--              5 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								5º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-5-periodo"
+								role="button">
+								5º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-5-periodo" class="collapse-content">
+							<!-- 020313121 - Projeto de Sistemas -->
+							<cell>
+								<a id="020313121" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313121">
+									<span>
+										Projeto de Sistemas
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313121" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Projeto de Sistemas
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Engenharia de Software 1
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 40H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 20H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Programação 3
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Processo de Desenvolvimento de Software; Ciclo de Vida
+																de
+																Desenvolvimento de Software; Qualidade de Software;
+																Técnicas
+																de Planejamento e Gerenciamento de Software;
+																Gerenciamento
+																de Configuração de Software; Engenharia de Requisitos;
+																Métodos de Análise e de Projeto de Software; Garantia de
+																Qualidade de Software; Verificação, Validação e Teste.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313121 - Projeto de Sistemas -->
+
+							<!-- 020313122 - Computação Gráfica -->
+							<cell>
+								<a id="020313122" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313122">
+									<span>
+										Computação Gráfica
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313122" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Computação Gráfica
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Computação Gráfica
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 40H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 20H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Geometria Analítica e Álgebra Linear, e Programação 1
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução à Computação Gráfica através de pacotes
+																independentes de dispositivos; Hardware: Tipos de
+																equipamentos e Tecnologia Disponível; Projeto de Pacotes
+																Gráficos; Padrões; Aspectos Geométricos: Gráficos e
+																processos de visualização 2D e 3D, e problemática
+																Associada.
+																Algoritmos; Aspectos Humanos; Realismo de Apresentação.
+																Intensidade e Coloração; Modelos e Hierarquias de
+																Objetos;
+																Representação de Superfícies 3D e de
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313122 - Computação Gráfica -->
+
+							<!-- 020313123 - Teoria dos Grafos -->
+							<cell>
+								<a id="020313123" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313123">
+									<span>
+										Teoria dos Grafos
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313123" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Teoria dos Grafos
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Teoria dos Grafos
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 30H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 30H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Estrutura de Dados
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução ao estudo dos Grafos; Conceitos associados ao
+																estudo dos Grafos (adjacência, isomorfismo, trivial,
+																grafo
+																de arestas, laço, multigrafo, etc); Algoritmos e
+																Implementações em Grafos; Complexidade Algorítmica Geral
+																e
+																Aplicada; Algoritmos e Complexidade; Teoria das
+																Categorias:
+																Definição, Objetos e Morfismos, Diagramas, Composição,
+																Dualidade, Subcategoria, Produto; Functores, Aplicações;
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313123 - Teoria dos Grafos -->
+
+							<!-- 020313124 - Arquitetura e Organização de Computadores -->
+							<cell>
+								<a id="020313124" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313124">
+									<span>
+										Arquitetura e Organização de Computadores
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313124" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Arquitetura e Organização de Computadores
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Arquitetura de Computadores
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Circuitos Digitais, e Sistemas Operacionais
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Estrutura básica de computadores; Máquinas Virtuais e
+																Multinível; Famílias de Computadores; Arquitetura do
+																Conjunto de Instruções; Introdução à Microprogramação;
+																Organização de Memória; Memória Cache; Pipeline;
+																Arquitetura
+																RISC e CISC; Linguagem de Montagem de Processadores RISC
+																(Padrão MIPS), Simulador RISC.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313124 - Arquitetura e Organização de Computadores -->
+
+							<!-- 020313125 - Banco de Dados 2 -->
+							<cell>
+								<a id="020313125" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313125">
+									<span>
+										Banco de Dados 2
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313125" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Banco de Dados 2
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b> Banco de Dados 2
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 0H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 60H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Banco de Dados 1
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Conceitos básicos de um SGBD; Linguagem SQL: Comandos
+																DDL e
+																DML; Ambiente operacional de um SGBD; Objetos de um
+																SGBD:
+																Domínios, Tabelas, Índices, Visões, Procedimentos,
+																Gatilhos,
+																Exceções.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313125 - Banco de Dados 2 -->
+						</div>
+					</div> <!-- [End] 5 Período -->
+
+					<!--              6 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								6º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-6-periodo"
+								role="button">
+								6º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-6-periodo" class="collapse-content">
+							<!-- 020313126 - Sistemas de Informação -->
+							<cell>
+								<a id="020313126" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313126">
+									<span>
+										Sistemas de Informação
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313126" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Sistemas de Informação
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Sistemas de Informação
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Não tem Pré requisito
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Conceitos básicos. Noções de Sistemas de Informação
+																Pessoais, de Grupos e Corporativos; Administração de
+																Sistemas de informação; SI Gerenciais e de Apoio a
+																Decisão;
+																Aplicações de Sistemas de Informação; datawarehousing,
+																dados
+																que armazenam conhecimento, a inteligência estratégica
+																de
+																negócio e o desempenho do empreendimento, competitive
+																inteligence; infraestrutura tecnológica: portal, OLAP
+																(on-line analytical processing).
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313126 - Sistemas de Informação -->
+
+							<!-- 020313127 - Linguagens Formais -->
+							<cell>
+								<a id="020313127" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313127">
+									<span>
+										Linguagens Formais
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313127" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Linguagens Formais
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Linguagens Formais
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Teoria dos Grafos
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Conceitos básicos de linguagens (símbolo, alfabeto,
+																cadeias
+																e linguagens); Modelos de análise e reconhecedores de
+																linguagens; Autômato Finito Determinístico e
+																Não-Determinístico; Modelos de síntese de linguagens
+																(gramáticas) e Hierarquia de Chomsky; Classes de
+																linguagens
+																(regulares, livres de contexto, sensíveis ao contexto,
+																recursivas e recursivamente enumeráveis); Autômatos a
+																Pilha;
+																Máquinas de Turing.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313127 - Linguagens Formais -->
+
+							<!-- 020313128 - Interação Humano-Computador -->
+							<cell>
+								<a id="020313128" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313128">
+									<span>
+										Interação Humano-Computador
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313128" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Interação Humano-Computador
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Interface Humano-Computador
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 40H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 20H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Engenharia de Software 1
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Fatores Humanos em Software Interativo: Teoria,
+																Princípios e
+																Regras Básicas; Estilos Interativos; Linguagens de
+																Comandos;
+																Manipulação Direta; Dispositivos de Interação; Padrões
+																para
+																Interface; Usabilidade: Definição e Métodos para
+																Avaliação;
+																A Natureza da Iteração com o Usuário e Ambientes
+																Virtuais.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313128 - Interação Humano-Computador -->
+
+							<!-- 020313129 - Redes de Computadores -->
+							<cell>
+								<a id="020313129" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313129">
+									<span>
+										Redes de Computadores
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313129" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Redes de Computadores
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Redes de Computadores
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 30H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 30H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Arquitetura e Organização de Computadores
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Conceito sobre sistemas de comunicação de dados.
+																Comunicação
+																de dados e evolução de teleprocessamento, classificação
+																das
+																redes, componentes e estrutura das redes. Conceitos de
+																redes
+																locais e metropolitanas. Arquitetura de anel e
+																barramento,
+																protocolos de acesso. Sistemas centralizados e sistemas
+																distribuídos. Comutação. Software de comunicação,
+																protocolos
+																e interfaces, modelo de referência OSI. Dimensionamento
+																de
+																redes. Estudo de caso.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313129 - Redes de Computadores -->
+
+							<!-- 020313130 - Laboratório de Circuitos Digitais -->
+							<cell>
+								<a id="020313130" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313130">
+									<span>
+										Laboratório de Circuitos Digitais
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313130" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Laboratório de Circuitos Digitais
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Não há equivalência
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 0H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 30H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Circuitos Digitais
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Proporciona um ambiente para a realização de atividades
+																práticas necessárias à consolidação dos conceitos
+																apresentados na teoria de Circuitos Digitais. As
+																atividades
+																são planejadas no contexto do mundo real e tem como base
+																a
+																utilização de software de simulação, linguagem de
+																descrição
+																de hardware, equipamentos e componentes para a
+																implementação
+																de circuitos lógicos combinacionais, circuitos
+																aritméticos,
+																Flip-Flops, contadores, registradores, multiplexadores e
+																demultiplexadores, memória e interface com o mundo
+																analógico.Proporciona um ambiente para a realização de
+																atividades práticas necessárias à consolidação dos
+																conceitos
+																apresentados na teoria de Circuitos Digitais. As
+																atividades
+																são planejadas no contexto do mundo real e tem como base
+																a
+																utilização de software de simulação, linguagem de
+																descrição
+																de hardware, equipamentos e componentes para a
+																implementação
+																de circuitos lógicos combinacionais, circuitos
+																aritméticos,
+																Flip-Flops, contadores, registradores, multiplexadores e
+																demultiplexadores, memória e interface com o mundo
+																analógico.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313130 - Laboratório de Circuitos Digitais -->
+
+							<!-- 020313131 - Laboratório de Arquitetura de Computadores -->
+							<cell>
+								<a id="020313131" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313131">
+									<span>
+										Laboratório de Arquitetura de Computadores
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313131" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Laboratório de Arquitetura de Computadores
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Não há equivalência
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 0H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 30H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Arquitetura e Organização de Computadores
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Proporciona entender o funcionamento interno de um
+																processador, conhecendo a arquitetura de um processador
+																vista a partir do conjunto de instruções de máquina.
+																Apresentam-se formas didáticas de construção de uma
+																Unidade
+																Central de Processamento a partir de circuitos de portas
+																lógicas combinacionais.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313131 - Laboratório de Arquitetura de Computadores -->
+
+							<!-- 020313132 - Estágio Supervisionado -->
+							<cell>
+								<a id="020313132" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313132">
+									<span>
+										Estágio Supervisionado
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313132" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Estágio Supervisionado
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Estágio Supervisionado
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 0H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 300H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Ter concluído 60% da carga horária total do curso.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Desenvolvimento de Trabalho acompanhado por professor
+																orientador. Tem por finalidade aplicar na prática os
+																conhecimentos teóricos obtidos ao longo do curso.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313132 - Estágio Supervisionado -->
+						</div>
+					</div> <!-- [End] 6 Período -->
+
+					<!--              7 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								7º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-7-periodo"
+								role="button">
+								7º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-7-periodo" class="collapse-content">
+							<!-- 020313133 - Auditoria e Segurança em Sistemas de Informação -->
+							<cell>
+								<a id="020313133" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313133">
+									<span>
+										Auditoria e Segurança em Sistemas de Informação
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313133" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Auditoria e Segurança em Sistemas de Informação
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Auditoria e Segurança em Sistemas de Informação
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Sistemas de Informação, e Redes de Computadores
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Auditoria de sistemas; PED nas empresas; Segurança da
+																informação; Formação de Departamentos de auditoria;
+																Levantamentos e procedimentos de auditoria; Política de
+																Segurança.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313133 - Auditoria e Segurança em Sistemas de Informação -->
+
+							<!-- 020313134 - Compiladores -->
+							<cell>
+								<a id="020313134" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313134">
+									<span>
+										Compiladores
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313134" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Compiladores
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Compiladores
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 40H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 20H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Linguagens Formais
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Conceituação de Tradutores, Interpretadores e
+																Compiladores;
+																Fases de um Compilador; Análise Léxica; Análise
+																Sintática e
+																Semântica; Tabela de Símbolos; Geração de Código
+																Intermediário; Otimização; Geração de Código Executável.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313134 - Compiladores -->
+
+							<!-- 020313135 - Trabalho de Conclusão 1 -->
+							<cell>
+								<a id="020313135" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313135">
+									<span>
+										Trabalho de Conclusão 1
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313135" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Trabalho de Conclusão 1
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Técnicas e Elaboração de Pesquisa em Computação
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 60H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 0H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Ter cumprido 70% da carga horária total do curso
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Orienta o discente na sistematização e produção de
+																conhecimentos, tendo em vista a fundamentação teórica e
+																prática necessária para capacitá-lo na elaboração de
+																projetos e produção de trabalhos acadêmicos de pesquisa,
+																preparando-o para a iniciação na produção científica e
+																para
+																a monografia ao final do curso.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313135 - Trabalho de Conclusão 1 -->
+
+							<!-- Eletiva 1 -->
+							<cell>
+								<a type="button" class="cell" data-toggle="modal" data-target="#modal-eletivas">
+									<span>
+										Eletiva 1
+									</span>
+								</a>
+							</cell> <!-- [End] Eletiva 1 -->
+
+							<!-- Eletiva 2 -->
+							<cell>
+								<a type="button" class="cell" data-toggle="modal" data-target="#modal-eletivas">
+									<span>
+										Eletiva 2
+									</span>
+								</a>
+							</cell> <!-- [End] Eletiva 2 -->
+						</div>
+					</div> <!-- [End] 7 Período -->
+
+					<!--              8 Período            -->
+					<!--------------------------------------->
+					<div class="coluna">
+						<cell>
+							<div class="titulo d-none d-md-block">
+								8º Período
+							</div>
+
+							<a class="titulo d-block d-md-none" data-toggle="collapse" href="#collapse-8-periodo"
+								role="button">
+								8º Período
+
+								<span class="float-right">
+									<i class="fas fa-plus"></i>
+									<i class="fas fa-minus"></i>
+								</span>
+							</a>
+						</cell>
+
+						<div id="collapse-8-periodo" class="collapse-content">
+							<!-- 020313136 - Sistemas Distribuídos -->
+							<cell>
+								<a id="020313136" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313136">
+									<span>
+										Sistemas Distribuídos
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313136" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Sistemas Distribuídos
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Sistemas Distribuídos
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 40H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 20H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Redes de Computadores
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Comunicação e sincronização em sistemas distribuídos.
+																Protocolos. Sistemas operacionais distribuídos e de
+																rede.
+																Comunicação inter-processos. RPC (Remote Procedure
+																Calling).
+																Estudo de casos: modelo de sistema de arquivos
+																distribuídos.
+																Serviço de nomes. Tempo e coordenação. Replicação.
+																Transações e dados compartilhados. Controle de
+																concorrência.
+																Transações distribuídas. Tolerância e falhas. Tipos e
+																motivação para aplicações distribuídas. Primitivas
+																básicas
+																de programação distribuída: controle de tarefas,
+																comunicação
+																e sincronização. Características básicas das primitivas.
+																Tipos de linguagens e programas.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313136 - Sistemas Distribuídos -->
+
+							<!-- 020313137 - Inteligência Artificial -->
+							<cell>
+								<a id="020313137" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313137">
+									<span>
+										Inteligência Artificial
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313137" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Inteligência Artificial
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Inteligência Artificial
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 30H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 30H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Lógica Aplicada a Computação
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Introdução a Inteligência Artificial: IA Conexionista,
+																IA
+																Simbólica e outros Paradigmas; Agentes Inteligentes;
+																Resolução de Problemas e Buscas; Conhecimento e
+																Raciocínio;
+																Programação de Agentes Inteligentes; Apresentação dos
+																Tópicos de Projetos de IA Simbólica; Redes Neurais;
+																Apresentação dos Tópicos de Projetos de IA Conexionista;
+																Projetos, Buscas Heuristicas; Branch and Bound;
+																Simulated
+																Amnealing; Algoritmo A*
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313137 - Inteligência Artificial -->
+
+							<!-- 020313138 - Trabalho de Conclusão 2 -->
+							<cell>
+								<a id="020313138" type="button" class="cell" data-toggle="modal"
+									data-target="#modal-020313138">
+									<span>
+										Trabalho de Conclusão 2
+									</span>
+								</a>
+
+								<div class="modal fade" id="modal-020313138" tabindex="-1" role="dialog">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title">
+													Trabalho de Conclusão 2
+												</h5>
+
+												<button type="button" class="close" data-dismiss="modal"
+													aria-label="Fechar">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+
+											<div class="modal-body">
+												<section>
+													<div class="row">
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>Equivalência:</b>
+																Projeto em Computação
+															</p>
+
+															<p>
+																<b>Tipo:</b> Obrigatório
+															</p>
+														</div>
+
+														<div class="col-12 col-lg-6">
+															<p>
+																<b>CH Teórica:</b> 0H
+															</p>
+
+															<p>
+																<b>CH Prática:</b> 60H
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Pré-Requisito:</b>
+																Trabalho de conclusão 1
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<p>
+																<b>Ementa:</b>
+																Trabalho de pesquisa, de natureza teórica ou prática, a
+																ser
+																desenvolvido pelo aluno na forma de monografia, sob a
+																orientação de um professor da área correlata à pesquisa.
+																Ao
+																final do período o trabalho deve ser levado a público
+																através da apresentação de uma monografia sobre as
+																atividades desenvolvidas, perante banca examinadora.
+															</p>
+														</div>
+													</div>
+
+													<div class="row">
+														<div class="col">
+															<button type="button" class="btn btn-primary float-right"
+																data-dismiss="modal">
+																Fechar
+															</button>
+														</div>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</cell> <!-- [End] 020313138 - Trabalho de Conclusão 2 -->
+
+							<!-- Eletiva 3 -->
+							<cell>
+								<a type="button" class="cell" data-toggle="modal" data-target="#modal-eletivas">
+									<span>
+										Eletiva 3
+									</span>
+								</a>
+							</cell> <!-- [End] Eletiva 3 -->
+
+							<!-- Eletiva 4 -->
+							<cell>
+								<a type="button" class="cell" data-toggle="modal" data-target="#modal-eletivas">
+									<span>
+										Eletiva 4
+									</span>
+								</a>
+							</cell> <!-- [End] Eletiva 4 -->
+
+							<!-- Eletiva 5 -->
+							<cell>
+								<a type="button" class="cell" data-toggle="modal" data-target="#modal-eletivas">
+									<span>
+										Eletiva 5
+									</span>
+								</a>
+							</cell> <!-- [End] Eletiva 5 -->
+						</div>
+					</div> <!-- [End] 8 Período -->
+
+					<!--           Modal Eletivas          -->
+					<!--------------------------------------->
+					<div class="modal fade" id="modal-eletivas" tabindex="-1" role="dialog">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title">
+										Eletivas
+									</h5>
+
+									<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+
+								<div class="modal-body">
+									<div class="row">
+										<div class="col">
+											<p class="text-danger">
+												* Pergunte na Coordenação de Computação quais eletivas serão
+												disponíbilizadas no
+												semestre.
+											</p>
+											<p class="text-danger">
+												* Ementas disponíveis na Coordenação de Computação.
+											</p>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col">
+											<p>
+												<b>Eletivas de computação:</b>
+												Arquitetura e Organização de Computadores 2, Cálculo Numérico, Controle
+												e Avaliação de Sistemas, Criptografia, Desenvolvimento Sustentável,
+												Engenharia de Software 2, Gestão de Infraestrutura de TI, Gestão de
+												Projetos de TI, Governança de TI, Multimídia, Práticas de Programação,
+												Processamento Digital de Imagens, Programação para Dispositivos Móveis e
+												Sem Fio, Programação em Lógica, Programação Funcional, Redes de
+												Computadores 2, Redes Neurais, Sistemas Microcontrolados, Sistemas
+												Operacionais 2, Software Livre, Tecnologias Digitais Aplicadas à
+												Educação, Tecnologias WEB, Teoria da Computação, Teoria dos Jogos,
+												Tópicos Especiais em Computação I, Tópicos Especiais em Computação II,
+												Tópicos Especiais em Computação III
+											</p>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col">
+											<p>
+												<b>Eletivas demais cursos:</b>
+												Ambientes de Negócios e Marketing, Cultura e Sociedade,
+												Empreendedorismo, Ética e legislação para Informática, Fundamentos da
+												Administração, Fundamentos da Economia, Fundamentos de Contabilidade,
+												Gestão do Conhecimento, Inglês, Leitura e Produção de Texto, Língua
+												Brasileira de Sinais – LIBRAS, Pesquisa Operacional
+											</p>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col">
+											<button type="button" class="btn btn-primary float-right"
+												data-dismiss="modal">
+												Fechar
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!-- [End] Modal Eletivas -->
+				</div>
+			</div>
+		</section> <!-- [End] Grade -->
+
+	</main> <!-- [End] Container Principal -->
+
+	<!--------------------------------------->
+	<!--		       Footer              -->
+	<!--------------------------------------->
+	<footer id="footer" class="footer">
+		<div class="container text-center text-lg-left">
+			<div class="row p-5  justify-content-center">
+
+				<!--              Contato              -->
+				<!--------------------------------------->
+				<div class="col-12 col-md-7 col-lg-5 col-xl-8">
+					<div class="row">
+
+						<!--      Coordenação de Computação    -->
+						<!--------------------------------------->
+						<div class="col-12 col-xl-6">
+							<header>
+								<h5>Coordenação de Computação</h5>
+								<div class="footer-line"></div>
+							</header>
+
+							<article>
+								<p>
+									<a class="footer-link" href="mailto:cynaracarvalho@yahoo.com.br?Subject=SOCORRO">
+										<i class="fas fa-envelope mr-2"></i>
+										cynara.carvalho@facape.br
+									</a>
+								</p>
+
+								<p>
+									<a href="tel:+558738663224" class="footer-link">
+										<i class="fas fa-phone-alt mr-2"></i>
+										(87) 3866-3224
+									</a>
+								</p>
+
+								<p>
+									<i class="far fa-clock mr-2"></i>
+									08:00 - 12:00 | 14:00 - 22:00
+								</p>
+							</article>
+						</div> <!-- [End] Coordenação de Computação-->
+
+						<!--               FACAPE              -->
+						<!--------------------------------------->
+						<div class="col-12 col-xl-6">
+							<header>
+								<h5>FACAPE</h5>
+								<div class="footer-line"></div>
+							</header>
+
+							<article>
+								<p>
+									<a class="footer-link" href="mailto:ouvidoria@facape.br">
+										<i class="fas fa-envelope mr-2"></i>
+										ouvidoria@facape.br
+									</a>
+								</p>
+
+								<p>
+									<a href="tel:+558738663200" class="footer-link">
+										<i class="fas fa-phone-alt mr-2"></i>
+										(87) 3866-3200
+									</a>
+								</p>
+
+								<p>
+									<i class="far fa-clock mr-2"></i>
+									08:00 - 12:00 | 14:00 - 22:00
+								</p>
+							</article>
+						</div> <!-- [End] FACAPE -->
+
+					</div>
+				</div> <!-- [End] Contato-->
+
+				<!--            Links Rapidos          -->
+				<!--------------------------------------->
+				<div class="col-12 col-md-7 col-lg-4 col-xl-4  ml-0 ml-lg-5 ml-xl-0">
+					<header>
+						<h5>Localização</h5>
+						<div class="footer-line"></div>
+					</header>
+
+					<article>
+						<iframe id="mapa-rodape"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.2866580461086!2d-40.481116185654614!3d-9.396220800815913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x77370608d9f005f%3A0xccd0290482fcdd50!2sFACAPE!5e0!3m2!1spt-BR!2sbr!4v1541000651605"
+							style="border:0" allowfullscreen="" width="250" height="250" frameborder="0"></iframe>
+					</article>
+				</div> <!-- [End] Links Rapidos -->
+
+			</div>
+		</div>
+
+		<div class="footer-copy p-3">
+			<div class="row text-center">
+				<div class="col-12 col-lg-6">
+					<span class="align-self-center">
+						&copy; 2019 Todos os direitos reservados.
+					</span>
+				</div>
+
+				<div class="col-12 col-lg-6">
+					<span class="align-self-center">
+						Desenvolvido por Inova Tech Jr.
+					</span>
+				</div>
+			</div>
+		</div>
+	</footer> <!-- [End] Footer -->
+
+	<!-- Scripts -->
+	<script src="public/js/vendors/jquery-3.4.1.min.js"></script>
+	<script src="public/js/vendors/bootstrap.min.js"></script>
+	<script src="public/js/vendors/fontawesome.min.js"></script>
+
+	<script src="public/js/all.js"></script>
+	<script src="public/js/grade-curricular.js"></script>
+</body>
+
+</html>

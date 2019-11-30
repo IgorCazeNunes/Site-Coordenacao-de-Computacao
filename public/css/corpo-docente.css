@@ -1,0 +1,29 @@
+.corpo-docente {
+    padding: 20px 0px;
+    text-align: justify;
+    
+    background-color: #F7FEFC;
+}
+
+.corpo-docente hr {
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #004884;
+}
+
+.corpo-docente h1 {
+    margin-bottom: 0;
+    color: #004884;
+}
+
+
+.corpo-docente .img-thumbnail {
+	background-color: #DAF1FC;
+	border-color: #8AB5D6;
+}
+
+/* Sobre MediaQuery LG 992px
+ * -------------------------------------------------------- */
+@media (min-width: 992px) {
+
+}

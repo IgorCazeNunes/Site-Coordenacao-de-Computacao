@@ -1,0 +1,136 @@
+/* Grade
+ * -------------------------------------------------------- */
+.grade {
+    padding: 20px 0px;
+}
+
+.grade .coluna {
+    width: 100%;
+    font-size: 1rem;
+    
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.grade .coluna:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Grade Sub-Titulo
+ * -------------------------------------------------------- */
+.grade .coluna .titulo {
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+.grade .coluna a.titulo {
+    padding: .5rem;
+    margin: 20px;
+    margin-bottom: 0;
+
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+    background: #004884;
+    color: #FFFFFF;
+}
+
+.grade .coluna .cell {
+    margin: 20px;
+    padding: 10px; 
+
+    text-align: center;
+
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.grade .coluna a.cell {
+    text-decoration: none;
+    color: #4579A5;
+    background: #FFFFFF;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, .15);
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+}
+
+.grade .coluna a.cell:hover {
+    color: #FFFFFF;
+    background: #4579A5;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+}
+
+.grade .coluna a.cell span {    
+    margin: auto;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.grade .coluna a.cell span.tag-bottom { 
+    position: absolute;  
+    font-size: .65rem;
+
+    bottom: 1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+/* MediaQuery MD
+ * -------------------------------------------------------- */
+@media (min-width: 768px) {
+    .grade .coluna {
+        width: 50%;
+        padding: 20px 0;
+        font-size: .9rem;
+    }
+
+    .grade .coluna .titulo {
+        margin: 0px 20px;
+    }
+}
+
+/* MediaQuery LG
+ * -------------------------------------------------------- */
+@media (min-width: 992px) {
+    .grade .coluna {
+        width: 25%;
+        padding: 20px 1.5%;
+    }
+    
+    .grade .coluna .titulo {
+        margin: 0;
+        width: 100%;
+    }
+
+    .grade .coluna .cell {
+        height: 80px;
+        margin: 10px 0;
+    }
+}
+
+/* MediaQuery XL
+ * -------------------------------------------------------- */
+@media (min-width: 1200px) {
+    .grade .coluna {
+        width: 12.5%;
+        padding: 20px 1%;
+    }
+
+    .grade .coluna .cell {
+        height: 120px;
+        margin: 0px;
+        margin-top: 15px;
+    }
+}
